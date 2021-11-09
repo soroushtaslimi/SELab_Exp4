@@ -8,6 +8,6 @@ public class Chenar extends Tree{
     @Override
     public Tree copy() {
         ArrayList<String> gardeners_copy = new ArrayList<>(get_gardeners());
-        return new Sarv(this.age, gardeners_copy);
+        return new Chenar(this.age, gardeners_copy);
     }
 }

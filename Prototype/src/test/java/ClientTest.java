@@ -74,7 +74,7 @@ public class ClientTest {
         ArrayList<String> gardeners = new ArrayList<>();
         gardeners.add("ahmad");
         gardeners.add("ali");
-        Tree first_chenar = client.makeSarv(10, gardeners);
+        Tree first_chenar = client.makeChenar(10, gardeners);
         Tree second_chenar = first_chenar.copy();
         second_chenar.add_gardener("mohammad");
         Assert.assertEquals(second_chenar.age, first_chenar.age);
